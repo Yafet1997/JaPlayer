@@ -8,4 +8,14 @@ A simple media player using HTML, JavaScript and [Tailwind CSS](https://tailwind
 - Current time display
 - Volume slider
 
-Place an audio file named `sample.mp3` in `src/media/` (or adjust the `audio` element's `src`) and open `src/index.html` in a modern browser.
+## Windows setup
+1. Install [Node.js](https://nodejs.org/) for Windows.
+2. Run `npm install` in this folder to install Electron.
+3. Start the desktop app with `npm start`.
+
+Place an audio file named `sample.mp3` in `src/media/` (or adjust the `audio` element's `src`) and the Electron window will load it.
+
+## What this project lacks
+- Packaging steps to create a standalone `.exe` installer
+- Playlist management or file browsing
+- Keyboard shortcuts and advanced playback controls
