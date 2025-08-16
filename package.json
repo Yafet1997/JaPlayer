@@ -1,0 +1,12 @@
+{
+  "name": "ja-player",
+  "version": "0.1.0",
+  "main": "electron.js",
+  "description": "Minimalist media player for Windows built with Electron",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.4"
+  }
+}
